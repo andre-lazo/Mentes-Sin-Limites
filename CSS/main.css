@@ -1,4 +1,3 @@
-
 body{
 font-family: 'Titillium Web', sans-serif;
 }
@@ -11,14 +10,6 @@ font-family: 'Titillium Web', sans-serif;
 footer{
   background: url(../img/contacto.jpg);
 }
-@media screen and (max-width:576px){
-
- p{
-   font-size: 20px;
-   text-align: justify;
- }
- .construye{
-   padding-right:20px;
-   padding-left: 20px;
- }
+#li1:hover,#li2:hover,#li3:hover,#li4:hover{
+  background: #9c9c9c;
 }
