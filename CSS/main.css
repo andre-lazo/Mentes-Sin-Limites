@@ -10,6 +10,51 @@ font-family: 'Titillium Web', sans-serif;
 footer{
   background: url(../img/contacto.jpg);
 }
-#li1:hover,#li2:hover,#li3:hover,#li4:hover{
+
+#li1:hover,#li2:hover,#li3:hover,#li4:hover,#li5:hover{
   background: #9c9c9c;
+}
+.lbl{
+  width: 45px;
+  height: 23px;
+  background: #979797;
+  border-radius: 100px;
+  position: relative;
+  transition: .2s;
+}
+.lbl::after{
+  content: '';
+  display: block;
+  width: 17px;
+  height: 15px;
+  background: #eee;
+  border-radius: 100%;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  transition: .2s;
+}
+#switch:checked +.lbl::after{
+  left: 54%;
+}
+#switch:checked +.lbl{
+background:#00CBB1;
+}
+ #switch{
+   display: none;
+ }
+html.dark-mode{
+      filter: invert(100%);
+}
+html.dark-mode img{
+  filter: invert(100%);
+}
+html.dark-mode nav{
+filter: invert(100%);
+}
+html.dark-mode footer {
+  filter: invert(100%);
+}
+html.dark-mode footer form {
+  filter: invert(100%);
 }

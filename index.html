@@ -18,7 +18,7 @@
 
     </head>
   <body class="cuerpo1">
-    <nav class="navbar navbar-expand-lg  navbar-inverse bg-inverse  navbar-light bg-light fixed-top navbar-toggleable-md  nav1">
+    <nav class="navbar navbar-expand-md  navbar-light bg-light fixed-top navbar-toggleable-md  nav1">
         <a class="navbar-brand font-weight-bold text-dark text-xs-h1" href="#">MSL</a>
         <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
         aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,23 +33,34 @@
                 <i class="fa fa-home "></i>
                  Home</a>
             </li>
+
             <li class="nav-item" id="li2">
               <a class="nav-link font-weight-bold text-dark" href="#info1">
               <i class="fa fa-instagram "></i>
                  Experience</a>
             </li>
+
             <li class="nav-item" id="li3">
               <a class="nav-link font-weight-bold text-dark" href="#info2">
                 <i class="fa fa-book "></i>
                  About</a>
             </li>
             <li class="nav-item"id="li4">
-              <a class="nav-link font-weight-bold text-dark" href="#contact">
+              <a class="nav-link  font-weight-bold text-dark" href="#contact">
                 <i class="fa fa-envelope "></i>
 
                  Contact</a>
             </li>
-          </ul>
+            <div class="btn-group" id="li5">
+              <li class="nav-item mt-2 ml-2" >
+
+                <input type="checkbox" id="switch" onclick="document.documentElement.classList.toggle('dark-mode')">
+                <label for="switch" class="lbl"></label>
+          </li>
+
+          <a href="#" class="nav-link  font-weight-bold text-dark inline-block" id="li5"> Dark Mode</a>
+            </div>
+        </ul>
         </div>
       </div>
     </nav>
@@ -132,7 +143,7 @@ Los desarrolladores web lo hacen a través de diversos lenguajes de programació
 </section>
 <hr>
   <h1>Contacto</h1>
-<footer id="contact">
+<footer  id="contact">
 
 <div class="container">
 
