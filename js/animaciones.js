@@ -64,3 +64,7 @@ $(document).ready(function(){
 
       $('#cuerpo1').height(height);
 });
+$(document).ready(function(){
+  $('.slider').bxSlider({auto:true,
+});
+});

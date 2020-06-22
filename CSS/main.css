@@ -1,4 +1,5 @@
 body{
+weight:900px;
 font-family: 'Titillium Web', sans-serif;
 }
 #testimonio{
@@ -33,6 +34,10 @@ footer{
   top: 4px;
   left: 4px;
   transition: .2s;
+}
+#propuesta{
+  padding-top : 25px;
+  padding-bottom: 0px;
 }
 #switch:checked +.lbl::after{
   left: 54%;
